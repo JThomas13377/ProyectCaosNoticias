@@ -1,0 +1,29 @@
+
+#info {
+    background: #00008B;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#info .contenedor .info-noticia img{
+    width: 180px;
+    height: 180px;
+    border: solid 7px black;
+    border-radius: 50%;
+}
+
+#info .contenedor .info-noticia img:hover{
+    filter: opacity(0.6);
+}
+
+#info .contenedor .info-noticia{
+    margin: 20px;
+}
