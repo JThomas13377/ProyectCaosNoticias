@@ -1,0 +1,51 @@
+
+#sesion{
+    background: grey;
+    font-family: cursive;
+    margin-top: 25px;
+}
+
+.sesion-titulo{
+    background: grey;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: solid 4px black;
+
+}
+
+.sesion-registro{
+    width: 95%;
+    margin: auto;
+    max-width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 25px;
+
+}
+
+.contenedor-input{
+    display: flex;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    padding: 7px;
+    margin-bottom: 12px;
+}
+
+.col-48{
+    width: 40%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    color: grey;
+    background: lightblue;
+}
